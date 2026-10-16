@@ -14,7 +14,7 @@ The car has 12 on/off cold-gas jets and a limited air tank. Three tools, one per
 
 1. **Plan** the whole flight offline with trajectory optimization (CasADi + IPOPT).
 2. **Correct** in flight with LQR on the car's attitude, 100 times a second.
-3. **Land** with model predictive control, 50 times a second, solved by [TinyMPC](https://tinympc.org).
+3. **Land** with model predictive control, 50 times a second, solved by [TinyMPC](https://tinympc.org/).
 
 With the car 4% heavier, jets 3% weaker and a gust mid-flip, replaying the planned jet timing without feedback
 hits the ground at 8 m/s; with feedback it lands at 0.9 m/s. On the ramp, Tesla says fans under the car hold it
