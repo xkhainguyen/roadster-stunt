@@ -1,0 +1,20 @@
+name: roadster
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - manim
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch
+      - mujoco
+      - numpy
+      - scipy
+      - casadi
+      - tinympc
+      - osqp
+      - kokoro
+      - soundfile
+      - segno
+      - zxing-cpp
+      - pytest
